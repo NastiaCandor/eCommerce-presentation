@@ -5,7 +5,14 @@
  */
 @import url(./fonts/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+
+section.has-dark-background,
+section.has-dark-background h1,
+section.has-dark-background h2,
+section.has-dark-background h3,
+section.has-dark-background h4,
+section.has-dark-background h5,
+section.has-dark-background h6 {
   color: #fff;
 }
 
@@ -19,7 +26,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-main-color: #333;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Lato,  sans-serif;
+  --r-heading-font: Lato, sans-serif;
   --r-heading-color: #333;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -381,4 +388,32 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .heading {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.readme-img {
+  height: 500px;
+}
+
+.notion-img {
+  height: 500px;
+}
+
+.slide-text.notion-text {
+  margin-top: 50px;
+}
+
+.slide-text.discord-text {
+  margin-top: 80px;
+}
+
+.discord-img, .pr-img {
+  height: 500px;
+}
+
+.activity-img {
+  height: 150px;
+}
+
+.github-img {
+  height: 550px;
 }
